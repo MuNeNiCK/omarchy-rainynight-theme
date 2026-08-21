@@ -1,5 +1,7 @@
-local active_border_color = "rgba(6e8fb2ee)"
-local inactive_border_color = "rgba(292b3baa)"
+-- Preserve the original Rainy Night border colors. These are intentionally
+-- darker than the general theme accent used by the shell and applications.
+local active_border_color = "rgb(303463)"
+local inactive_border_color = "rgb(1a1b26)"
 
 hl.config({
   general = {
